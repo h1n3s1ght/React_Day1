@@ -1,0 +1,127 @@
+:root {
+  --independence: #484D6D;
+  --cyan-process: #08B2E3;
+  --fire-opal: #EE6352;
+  --sea-serpent: #57A773;
+  --aquamarine: #6fffe9;
+  --react: #00d8ff;
+}
+
+html {
+  background-color: whitesmoke
+}
+body {
+  margin: 0;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  color: var(--independence);
+}
+
+.whole {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  background-color: var(--independence);
+  color: white;
+  width: 20%;
+  height: 120vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.options {
+  align-content: center;
+  justify-content: center;
+}
+
+.options a {
+  text-decoration: none;
+  color: var(--aquamarine);
+}
+
+.options a:hover {
+  color: white;
+}
+
+.rightSide {
+  width: 100%;
+}
+
+.analyticResults {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: var(--aquamarine);
+  justify-content: flex-start;
+  width: 90vw;
+  max-height: 40vh;
+}
+.analyticResults>div{
+   border: 2px solid #484D6D;
+}
+
+.analytics {
+  width: 33%;
+  text-align: center;
+  margin-top: 2%;
+  height: 25vh;
+}
+
+.mainContent {
+  display: flex;
+  width: 80%;
+}
+
+.contentBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.contentBlock h3, .contentBlock h4 {
+  text-align: center;
+}
+
+.GrayContainer {
+  width: 75vw;
+  height: 75vh;
+  background-color: gray;
+   margin-right: 0%;
+}
+
+.topContentBlock {
+  width: 25%;
+  align-items: center;
+}
+.bottomContentBlock {
+  margin-top: 10%;
+  margin-right: 0%;
+  width: 75%;
+}
+
+h4 {
+  text-align: center;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+h1 {
+  flex-basis: 60%;
+  color: var(--independence);
+  text-align: center;
+}
