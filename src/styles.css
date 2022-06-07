@@ -99,9 +99,8 @@ body {
 
 .GrayContainer {
   width: 75vw;
-  height: 75vh;
+  height: 70vh;
   background-color: gray;
-   margin-right: 0%;
 }
 
 .topContentBlock {
@@ -109,9 +108,9 @@ body {
   align-items: center;
 }
 .bottomContentBlock {
-  margin-top: 10%;
-  margin-right: 0%;
-  width: 75%;
+  margin-top: 3%;
+  margin-left: 15%;
+  width: 100%;
 }
 
 h4 {
